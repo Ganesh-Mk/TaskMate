@@ -3,6 +3,7 @@
     "name": "TaskMate",
     "slug": "TaskMate",
     "version": "1.0.0",
+    "sdkVersion": "48.0.0",
     "orientation": "portrait",
     "icon": "",
     "scheme": "myapp",
@@ -19,7 +20,8 @@
       "adaptiveIcon": {
         "foregroundImage": "",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ganeshmk.TaskMate"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,27 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "updates": {
+      "enabled": true,
+      "checkOnLaunch": "ALWAYS",
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/fd4df5f5-516c-4286-97b8-d11c246c5af4"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fd4df5f5-516c-4286-97b8-d11c246c5af4"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
+
+
+
+
+
+
+
